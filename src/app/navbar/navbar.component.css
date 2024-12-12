@@ -1,0 +1,17 @@
+@media (max-width: 991px) {
+    .custom-collapse-desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .custom-collapse-small {
+        display: none !important;
+    }
+
+    .custom-collapse-desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+    }
+}

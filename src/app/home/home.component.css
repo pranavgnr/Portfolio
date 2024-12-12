@@ -1,0 +1,17 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 10vh;
+}
+
+.image {
+    margin: 2vh;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+ 
+.image:hover {
+    filter: grayscale(0%);
+}
